@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping-Pong!!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+    /* border: 1px solid black; */
+    position: relative;
+}
+#ball{
+    height: 20px;
+    width: 20px;
+    /* border:1px solid black; */
+    position: fixed;
+    border-radius: 50%;
+    background-color:rgb(231, 33, 33);
+    left:60%;
+    top:20px;
+    box-shadow:0 0 .7rem .1rem brown;
+}
+#rode1{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    width:150px;
+    background-color: rgb(12, 235, 108);
+    border-radius: 10px;
+    /* border:1px solid black; */
+    position: fixed;
+    font-weight: bold;
+    top:0%;
+    left:50%;
+}
+#rode2{
+    height: 20px;
+    width:150px;
+    background-color: rgb(18, 242, 250);
+    border-radius: 10px;
+    /* border:1px solid black; */
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    bottom: 0%;
+    left:50%;
+}
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="rode1">Rode 1</div>
+        <div id="ball"></div>
+        <div id="rode2">Rode 2</div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
